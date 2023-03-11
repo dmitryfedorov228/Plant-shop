@@ -37,8 +37,25 @@
         justify-content: center;
     }
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:990px){
+    .container{
+        width: 768px;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        width: 480px;
+    }
+    .header__wrapper{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width:480px){
+    .container{
+        width: 375px;
+    }
     .home__wrapper_card{
-        width: 50%;
+        width: 100%;
     }
 }

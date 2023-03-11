@@ -327,6 +327,7 @@
 .footer__wrapper{
     justify-content: space-between;
     display: flex;
+    flex-wrap: wrap;
 }
 .footer__right{
     display: flex;
@@ -368,13 +369,13 @@ color: #333333;
   color: #4F4F4F;
 }
 .footer__right__first__block{
-  width: 40%;
+  width: 50%;
 }
 .footer__right__second__block{
-  width: 40%;
+  width: 50%;
 }
 .footer__right__thirst__block{
-  width: 40%;
+  width: 50%;
 }
 .footer__right__first__block h2{
   font-family: 'Work Sans';
