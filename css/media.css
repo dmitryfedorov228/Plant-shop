@@ -1,0 +1,44 @@
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 991px;
+    }
+    .header__wrapper_bottom{
+        width: 50%;
+    }
+    .header__wrapper_bottom h1{
+        font-size: 60px;
+    }
+    .header__wrapper_buttons{
+        flex-wrap: wrap;
+        padding-left: 0;
+    }
+    .header__wrapper_buttons__left{
+        width: 50%;
+    }
+    .home__wrapper_card{
+        width: 30%;
+        margin: 5px;
+
+    }
+    .home__wrapper{
+        justify-content: center;
+    }
+    .category__card{
+        width: 50%;
+        margin: 3px;
+        
+    }
+    .category__cards{
+        justify-content: center;
+    }
+    .main__top{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width:375px){
+    .home__wrapper_card{
+        width: 50%;
+    }
+}
